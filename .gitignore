@@ -1,0 +1,33 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# Kubernetes configs
+.kube/
+*.yaml~        # backup files
+*.yml~
+
+# Docker
+*.log
+*.env
+docker-compose.override.yml
+
+# Node.js (if your app uses it)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.swp
